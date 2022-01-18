@@ -5,6 +5,6 @@
   "scripts": {
     "install": "## run this: `bundle install`",
     "start": "## run this: `bundle exec jekyll serve`",
-    "deploy": "npm run build; aws --profile unegma s3 sync --delete ./_site/ s3://blog.rainprotocol.xyz/"
+    "deploy": "aws --profile unegma s3 sync --delete ./_site/ s3://blog.rainprotocol.xyz/"
   }
 }
