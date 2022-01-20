@@ -1,10 +1,10 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
-date:   2022-01-18 20:00:23 +0000
-categories: jekyll update
+layout: single
+title:  "What is Rain Protocol"
+date:   2022-01-20 13:00:23 +0000
+categories: rain general
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+What exactly is Rain Protocol and what can it be used for? This is a question we will address in this post. Rain is about fair value capture
 
 Jekyll requires blog post files to be named according to the following format:
 
