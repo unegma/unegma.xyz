@@ -2,7 +2,7 @@
 layout: single
 title:  "Rain Protocol: Seed, Fund, Raise"
 date:   2021-11-24 13:00:23 +0000
-categories: rain general
+categories: various
 ---
 
 ## Intro
