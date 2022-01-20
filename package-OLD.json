@@ -1,0 +1,10 @@
+{
+  "name": "blog.rainprotocol.xyz",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "install": "## run this: `bundle install`",
+    "start": "## run this: `bundle exec jekyll serve`",
+    "deploy": "aws --profile unegma s3 sync --delete ./_site/ s3://blog.rainprotocol.xyz/"
+  }
+}
