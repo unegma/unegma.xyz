@@ -33,4 +33,4 @@ In future articles we will give some examples of how to create some of these que
 [ens]: https://thegraph.com/explorer/subgraph?id=0x06b3a0712f26c7e72dc379ca80915c67c24eff64-1&view=Overview
 [uniswap]: https://thegraph.com/explorer/subgraph?id=0x9bde7bf4d5b13ef94373ced7c8ee0be59735a298-2&view=Overview
 [rain-subgraph]: https://thegraph.com/hosted-service/subgraph/beehive-innovation/rain-protocol
-[discord]: "https://discord.gg/dzYS3JSwDP"
+[discord]: https://discord.gg/dzYS3JSwDP

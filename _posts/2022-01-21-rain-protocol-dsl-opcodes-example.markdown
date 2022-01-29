@@ -91,5 +91,5 @@ And that is it for writing your first piece of Domain Specific Language using th
 
 From here, check out the other Opcodes in the vm directory and see what else you can create. And remember to join our [Discord][discord] to keep up with developments! 
 
-[discord]: "https://discord.gg/dzYS3JSwDP"
-[github]: "https://github.com/beehive-innovation/rain-protocol"
+[discord]: https://discord.gg/dzYS3JSwDP
+[github]: https://github.com/beehive-innovation/rain-protocol
