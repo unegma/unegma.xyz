@@ -31,7 +31,9 @@ Next we will add hardhat by running `npm install --save-dev hardhat`
 
 ## Creating an example
 
-We will now create a basic hardhat project using `npx`. Npx should come bundled with `npm` and is basically [`a CLI tool whose purpose is to make it easy to install and manage dependencies hosted in the npm registry.`][npx]. If we run `npx hardhat` we will then create a basic Hardhat project in our project folder (select the `sample project` option for now). You can read more about this process [here][hardhat]. Running `npx hardhat` again will give a list of available options which can be used with the tool. (You will probably want to select `yes` to the `add .gitignore` option, especially if you are considering creating a git repo of your project).
+We will now create a basic hardhat project using `npx`. Npx should come bundled with `npm` and is basically [`a CLI tool whose purpose is to make it easy to install and manage dependencies hosted in the npm registry.`][npx]. If we run `npx hardhat` we will then create a basic Hardhat project in our project folder (select the `sample project` option for now). You can read more about this process [here][hardhat]. Running `npx hardhat` again will give a list of available options which can be used with the tool. You will probably want to select `yes` to the `add .gitignore` option, especially if you are considering creating a git repo of your project. You can do this by running `git init` at this point. Details on how to use git are beyond the scope of this tutorial, but to get started, you can run `git add .` (which will add everything in the current directory EXCEPT everything in `.gitignore` to your repo), and then `git commit --message "My First Commit"`.
+
+
 
 [discord]: https://discord.gg/dzYS3JSwDP
 [hardhat]: https://hardhat.org/getting-started/
