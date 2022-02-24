@@ -37,6 +37,19 @@ If we run `npx hardhat` we will then create a basic Hardhat project in our proje
 
 Running `npx hardhat` again will give a list of available options which can be used with the tool. You will probably want to select `yes` to the `add .gitignore` option, especially if you are considering creating a git repo of your project. You can do this by running `git init` at this point. Details on how to use git are beyond the scope of this tutorial, but to get started, you can run `git add .` (which will add everything in the current directory EXCEPT everything in `.gitignore` to your repo), and then `git commit --message "My First Commit"`.
 
+## Installing the Rain library
+
+Next we will pull down the Rain Protocol toolset so that we can begin to use the tooling to create our own custom functionality. Run `npm install --save @beehiveinnovation/rain-protocol` in order to add to the dependencies in `package.json`. 
+
+We will now also add a couple more scripts to our `package.json` file for compiling our scripts which use Rain (and running tests for these contracts). Add the following to `package.json`:
+
+```
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test"
+  }
+```
+
 
 
 
