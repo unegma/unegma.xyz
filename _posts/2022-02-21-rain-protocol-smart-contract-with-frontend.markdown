@@ -39,6 +39,8 @@ Running `npx hardhat` again will give a list of available options which can be u
 
 ## Installing the Rain library
 
+[//]: # (todo might want to add an install for openzepplin too, even though it is a dependency of Rain )
+
 Next we will pull down the Rain Protocol toolset so that we can begin to use the tooling to create our own custom functionality. Run `npm install --save @beehiveinnovation/rain-protocol` in order to add to the dependencies in `package.json`. 
 
 We will now also add a couple more scripts to our `package.json` file for compiling our scripts which use Rain (and running tests for these contracts). Add the following to `package.json`:
@@ -52,6 +54,39 @@ We will now also add a couple more scripts to our `package.json` file for compil
 
 
 
+## Setting the stage for creating a Rain-based Smart Contract
+
+Next we will start to pull in the Rain protocol provided functionality into a contract of our very own. Hardhat will have created a `Greeter.sol` file within the `contracts` directory. This is where we will now add a new contract called `CertifiedAssetConnect.sol`. We can also delete `Greeter.sol`.
+
+We will also need to add `CertifiedAssetConnect` to the `scripts/sample-script.js` file so that running `npm run-script compile` (which runs the command we copied in to our `scripts` in `package.json` above), knows how to compile the `CertifiedAssetConnect.sol` file. We will also do the same for `test/sample-test.js`:
+
+```
+  // Replace the Greeter.sol lines with these in scripts/sample-script.js:
+  const CertifiedAssetConnect = await hre.ethers.getContractFactory("CertifiedAssetConnect");
+  const certifiedAssetConnect = await CertifiedAssetConnect.deploy();
+
+  await certifiedAssetConnect.deployed();
+
+  console.log("CertifiedAssetConnect deployed to:", certifiedAssetConnect.address);
+```
+
+```
+// Replace all the content in test/sample-test.js with the following:
+const { expect } = require("chai");
+const { ethers } = require("hardhat");
+
+describe("CertifiedAssetConnect", function () {
+  it("Should set the name and deploy the contract", async function () {
+    const CertifiedAssetConnect = await ethers.getContractFactory("CertifiedAssetConnect");
+    const certifiedAssetConnect = await CertifiedAssetConnect.deploy({name: "myName", symbol: "mySymbol", uri: "myUri"});
+    await certifiedAssetConnect.deployed();
+
+    expect(await certifiedAssetConnect.name()).to.equal("myName");
+  });
+});
+```
+
+Running `npm run-script test` or `npm run-script compile` won't yet yeild any results as we have not yet added any content in `contracts/CertifiedAssetConnect.sol`, but if we are doing proper test-driven development, this is what we should expect from the result of adding the code.
 
 [discord]: https://discord.gg/dzYS3JSwDP
 [hardhat]: https://hardhat.org/getting-started/
