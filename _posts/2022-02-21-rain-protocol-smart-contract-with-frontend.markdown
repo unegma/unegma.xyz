@@ -88,6 +88,56 @@ describe("CertifiedAssetConnect", function () {
 
 Running `npm run-script test` or `npm run-script compile` won't yet yeild any results as we have not yet added any content in `contracts/CertifiedAssetConnect.sol`, but if we are doing proper test-driven development, this is what we should expect from the result of adding the code.
 
+## Adding CertifiedAssetConnect.sol
+
+Let us now add the following functionality to `contracts/CertifiedAssetConnect.sol`:
+
+```
+// SPDX-License-Identifier: UNLICENSE
+pragma solidity ^0.8.12;
+
+// Open Zeppelin imports.
+import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+// Rain Imports
+import "@beehiveinnovation/rain-protocol/contracts/tier/ITier.sol";
+import "@beehiveinnovation/rain-protocol/contracts/tier/libraries/TierReport.sol";
+
+struct CertifiedAssetConnectConfig {
+    string name;
+    string symbol;
+    string uri;
+}
+
+contract CertifiedAssetConnect is ERC20 {
+    event Construction(address sender, CertifiedAssetConnectConfig config);
+    event Certify(address sender, uint256 until, bytes data);
+    event Connect(address sender, uint256 id, uint256 amount, bytes data);
+    event Disconnect(address sender, uint256 id, uint256 amount, bytes data);
+
+    constructor(CertifiedAssetConnectConfig memory config_)
+    ERC20(config_.name, config_.symbol)
+    {
+        emit Construction(msg.sender, config_);
+    }
+}
+```
+
+This will serve as a base extension of an ERC20 contract before we add Rain based functionality.
+
+Now when we run `npm run-script compile` or `npm run-script test`, our code should still fail. This is because the version of solidity we are using for this is: `pragma solidity ^0.8.12;`, and the hardhat setup will likely have added:
+
+```
+/**
+ * @type import('hardhat/config').HardhatUserConfig
+ */
+module.exports = {
+  solidity: "0.8.10",
+};
+```
+
+To `hardhat.config.js`, so go ahead and change this to `0.8.10` and the compilation and tests should run correctly. (If you get a warning about Solidity 0.8.12 not being fully supported, don't worry about this for now, although things may be very different if you are reading this after February 2022).
+
 [discord]: https://discord.gg/dzYS3JSwDP
 [hardhat]: https://hardhat.org/getting-started/
 [npx]: https://www.freecodecamp.org/news/npm-vs-npx-whats-the-difference/
