@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Rain Protocol: Smart Contract with Frontend"
+title:  "Rain Protocol: Smart Contract with Tests"
 date:   2022-02-21 14:00:23 +0000
 categories: various
 ---
