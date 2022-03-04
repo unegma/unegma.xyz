@@ -64,6 +64,8 @@ cache
 artifacts
 ```
 
+We can now run a local version of a blockchain (http://127.0.0.1:8545/) by running `npm run run-blockchain`. We will use this when developing this example and you will need to re-run it (along with `npm run start` each time you set up the app).
+
 [//]: # (todo does hardhat work with regular ethers?)
 [//]: # (todo what is the best way to get the abi in or are we using typechain)
 [//]: # (todo does josh use own connect button or a library?)
