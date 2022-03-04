@@ -52,7 +52,7 @@ We also want to add the following scripts to our `package.json` file:
 ```
   "scripts": {
     "compile": "npx hardhat compile",
-    "test": "npx hardhat test"
+    "run-blockchain": "npx hardhat node"
   },
 ```
 
