@@ -66,6 +66,11 @@ artifacts
 
 We can now run a local version of a blockchain (http://127.0.0.1:8545/) by running `npm run run-blockchain`. We will use this when developing this example and you will need to re-run it (along with `npm run start` each time you set up the app).
 
+## Connecting to the blockchain
+
+You will now want to use a Web3 wallet to connect to your local blockchain instance. Setting up the connection is beyond the scope of this article, but you can find instructions for this under [MetaMask Installation & Configuration][web3-connect]. The private key you import and the public address you use should not change between restarts of hardhat, but make sure you don't send funds to these addresses on or from a wallet on a different chain, otherwise funds will be lost. 
+
+
 [//]: # (todo does hardhat work with regular ethers?)
 [//]: # (todo what is the best way to get the abi in or are we using typechain)
 [//]: # (todo does josh use own connect button or a library?)
@@ -76,3 +81,4 @@ We can now run a local version of a blockchain (http://127.0.0.1:8545/) by runni
 
 [//]: # (todo link here)
 [previous-tutorial]: https://blog.rainprotocol.xyz
+[web3-connect]: https://www.web3.university/article/how-to-build-a-react-dapp-with-hardhat-and-metamask
