@@ -5,7 +5,7 @@ date:   2022-03-22 03:47:23 +0000
 categories: metaverse
 ---
 
-Evolution of the Internet: Web 1.0 to Web 4.0
+*Evolution of the Internet: Web 1.0 to Web 4.0*
 
 ## Web 1.0 to Web 2.0 – A Brief History
 
