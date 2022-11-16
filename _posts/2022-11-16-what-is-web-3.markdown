@@ -1,0 +1,51 @@
+---
+layout: single
+title:  "What is Web3?"
+date:   2022-11-16 03:47:23 +0000
+categories: web
+---
+
+## The Internet
+
+The Internet was built for communication.
+It is a way of exchanging words.
+Words either between people, or between computers.
+
+With words, you can tell a computer that you want it to do something for you, like update a story on a social media platform, or you can send a message to a friend.
+
+When you send a message, either to a computer, or to a friend, it is very hard to take it back. Have you ever said something to someone that you regret, and wished that you could take it back?
+
+## Ownership
+
+So what if you wanted to send something to someone that you might need to get back at some point?
+What if you wanted to deposit something at a pawn shop, that you wanted back in the future?
+What if you paid too much tax and needed to receive some of it back but could not?
+
+Well this is what this new layer of technology enables, and it is all being built alongside and on top of our current Internet system. Ledgers of data (which can't be taken back), are created by global networks which facilitate one thing: ownership.
+
+Ownership requires three things to be legitimate: number 1. an official record of Possession that is, a definitive list of who owns what, and number 2. Transferability: that is, the ability for one party to pass on something owned to someone else; with the possibility to send it back.
+
+## Crypto and NFTs
+
+Crypto and NFTs are just a big experiment built on top of this new technology.
+
+When you check in to a hotel, you are given a card to enter your room. When you tap the card on the door, a check is made that you are allowed to enter. When you check out, you are no longer able to enter the room. Transferability of Possession has taken place. This is Ownership.
+
+The final component of Ownership, is 3. Identity.
+
+To keep a record of who owns what, and who is transferring what, who they are needs to be known.
+
+<This is why paying for verified identity doesn't work, anyone can say they are someone else, as long as they are willing to put down some cash>
+
+## Digital Objects
+
+When you own and transfer any digital object in the Web3 system, because you (or the custodial entity you are trusting) has a set of private digital keys, you have a digital identity. This identity may be tied to you as an individial through a process such as KYC, or you are anonymous.
+
+In both scenarios, the wider Web3 system knows that you are an actor is the system, and is able (through a process you don't really need to understand, just as you probably don't understand tcp/ip), is able to let you transfer and own Digital Property.
+
+The opportunities this unlocks are only as big as our imaginations.
+
+And The Metaverse..? Well that is a topic for a different [article on Web4][what-is-web-4].
+
+
+[what-is-web-4]: https://www.igi-global.com/dictionary/overview-differentiation-evolutionary-steps-web/35103
