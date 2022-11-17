@@ -37,7 +37,7 @@ When you check in to a hotel, you are given a card to enter your room. When you 
 
 The final component of Ownership, is 3. Identity: for a record to exist of who owns what, and who is transferring what, *who they are*, needs to be known.
 
->**This is why [paying for verified identity][twitter] doesn't work, anyone can say they are someone else, as long as they are willing to put down some cash.**
+>**This is why [paying for verified identity][twitter] doesn't work, [anyone can say they are someone else][fake-accounts], as long as they are willing to put down some cash.**
 
 ## Digital Objects
 
@@ -59,3 +59,4 @@ And The Metaverse..? Well that is a topic for a different [article on Web4][what
 [blockchain-revolution]: https://dontapscott.com/books/blockchain-revolution/
 [did]: https://www.gov.uk/government/news/new-legislation-set-to-make-digital-identities-more-trustworthy-and-secure
 [twitter]: https://www.forbes.com/sites/danielwebber/2022/11/15/how-viable-are-elon-musks-payments-plans-for-twitter/?sh=71040e425a08
+[fake-accounts]: https://gizmodo.com/15-fake-twitter-accounts-elon-musk-chaos-verification-1849771209
