@@ -11,9 +11,10 @@ categories: web
 
 The Internet was built for communication.
 It is a way of exchanging words.
-Words either between people, or between computers.
+Words are either between people, or between computers.
+When the Internet was first created, you could only fetch and read words (e.g. using your browser).
 
-With words, you can tell a computer that you want it to do something for you, like update a story on a social media platform, or you can send a message to a friend.
+With words, you can now tell a computer that you want it to do something for you (this is Web2.0), like update a story on a social media platform; or you can send a message to a friend.
 
 When you send a message, either to a computer, or to a friend, it is very hard to take it back. Have you ever said something to someone that you regret, and wished that you could take it back?
 
