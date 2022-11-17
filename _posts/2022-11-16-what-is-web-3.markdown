@@ -51,7 +51,7 @@ And The Metaverse..? Well that is a topic for an [article on Web4][what-is-web-4
 
 [web1]: https://www.techopedia.com/definition/27960/web-10
 [web2]: https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html
-[what-is-web-4]: 
+[what-is-web-4]: https://unegma.xyz
 [kyc]: https://www.swift.com/your-needs/financial-crime-cyber-security/know-your-customer-kyc/meaning-kyc
 [custodial-entity]: https://www.investopedia.com/terms/c/custodian.asp
 [tcp-ip]: https://en.wikipedia.org/wiki/Internet_protocol_suite
