@@ -33,6 +33,8 @@ Crypto and NFTs are a big experiment built on top of this technology, a tech whi
 
 When you check in to a hotel, you are given a card to enter your room. When you tap the card on the door, a check is made that you are allowed to enter. When you check out, you are no longer able to enter the room. Transferability of Possession has taken place.
 
+You might say, "But I can own things already on the Internet, what is different about Web3?", you might also want to read around why the [SWIFT system is inefficient][swift].
+
 ## Identity ([DID][did])
 
 The final component of Ownership, is 3. Identity: for a record to exist of who owns what, and who is transferring what, *who they are*, needs to be known.
@@ -43,7 +45,7 @@ The final component of Ownership, is 3. Identity: for a record to exist of who o
 
 When you own and transfer any digital object in the Web3 system, because you (or the [entity you are trusting][custodial-entity]) have a set of digital keys, you have a Digital Identity. This identity may be tied to you as an individual through some form of [recognised approvals process][kyc], or you are anonymous.
 
-In both scenarios, the wider Web3 system knows that you are an actor is the system, and is able (through a [process you don't really need to understand][blockchain], just as you probably don't understand the Internet's [tcp/ip][tcp-ip] system), is able to let you transfer and own Digital Property.
+In both scenarios, the wider Web3 system knows that you are an actor is the system, and is able, through a [process you don't really need to understand][blockchain] (just as you probably don't understand the Internet's [tcp/ip][tcp-ip] system), is able to let you transfer and own [Digital Property][digital-property].
 
 The opportunities this unlocks are only as big as our imaginations.
 
@@ -60,3 +62,5 @@ And The Metaverse..? Well that is a topic for a different [article on Web4][what
 [did]: https://www.gov.uk/government/news/new-legislation-set-to-make-digital-identities-more-trustworthy-and-secure
 [twitter]: https://www.forbes.com/sites/danielwebber/2022/11/15/how-viable-are-elon-musks-payments-plans-for-twitter/?sh=71040e425a08
 [fake-accounts]: https://gizmodo.com/15-fake-twitter-accounts-elon-musk-chaos-verification-1849771209
+[digital-property]: https://www.business.com/articles/investing-in-digital-real-estate/
+[swift]: https://www.investopedia.com/news/does-blockchains-popularity-mean-end-swift/
