@@ -25,7 +25,7 @@ What if you paid too much tax and needed to receive some of it back but could no
 
 Well this is what this new layer of technology enables, and it is all being built alongside and on top of our current Internet system. Ledgers of data (which can't be taken back), are created by global networks which facilitate one thing: Ownership.
 
-Ownership requires three things to be legitimate: 1. an official record of Possession: i.e. a definitive list of who owns what, and 2. Transferability: i.e, the ability for one party to pass on, something they own, to someone else; with the possibility for it to be passed back.
+Ownership requires 3 things to be legitimate: 1. an official record of Possession: i.e. a definitive list of who owns what, and 2. Transferability: i.e, the ability for one party to pass on, something they own, to someone else; with the possibility for it to be passed back.
 
 ## Crypto and NFTs
 
