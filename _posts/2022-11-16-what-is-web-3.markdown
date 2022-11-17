@@ -35,7 +35,7 @@ When you check in to a hotel, you are given a card to enter your room. When you 
 
 ## Identity ([DID][did])
 
-The final component of Ownership, is 3. Identity: To keep a record of who owns what, and who is transferring what, *who they are* needs to be known.
+The final component of Ownership, is 3. Identity: for a record to exist of who owns what, and who is transferring what, *who they are* needs to be known.
 
 >**This is why [paying for verified identity][twitter] doesn't work, anyone can say they are someone else, as long as they are willing to put down some cash.**
 
