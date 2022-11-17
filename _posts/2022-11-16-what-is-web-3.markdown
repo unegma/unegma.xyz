@@ -33,6 +33,8 @@ Crypto and NFTs are a big experiment built on top of this technology, a tech whi
 
 When you check in to a hotel, you are given a card to enter your room. When you tap the card on the door, a check is made that you are allowed to enter. When you check out, you are no longer able to enter the room. Transferability of Possession has taken place.
 
+## Identity ([DID][did])
+
 The final component of Ownership, is 3. Identity: To keep a record of who owns what, and who is transferring what, *who they are* needs to be known.
 
 ---
@@ -59,3 +61,4 @@ And The Metaverse..? Well that is a topic for a different [article on Web4][what
 [tcp-ip]: https://en.wikipedia.org/wiki/Internet_protocol_suite
 [blockchain]: https://www.youtube.com/watch?v=y2O2H0QADpo
 [blockchain-revolution]: https://dontapscott.com/books/blockchain-revolution/
+[did]: https://www.gov.uk/government/news/new-legislation-set-to-make-digital-identities-more-trustworthy-and-secure
