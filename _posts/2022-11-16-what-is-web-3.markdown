@@ -11,7 +11,6 @@ categories: web
 
 The Internet was built for communication.
 It is a way of exchanging words.
-Words are either between people, or between computers.
 When the Internet was first created, [you could only fetch and read words][web1] (e.g. using your browser).
 
 With words, you can now tell a computer that you want it to do something for you ([this is Web2.0][web2]), like update a story on a social media platform; or you can send a message to a friend.
