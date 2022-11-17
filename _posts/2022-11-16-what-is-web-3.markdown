@@ -29,7 +29,7 @@ Ownership requires 3 things to be legitimate: 1. an official record of Possessio
 
 ## Crypto and NFTs
 
-Crypto and NFTs are a big experiment built on top of this new technology, which [provides a blueprint on which anything - to which Ownership can be applied - can be built digitally][blockchain-revolution]*. 
+Crypto and NFTs are a big experiment built on top of this new technology, which *[provides a blueprint on which anything - to which Ownership can be applied - can be built digitally][blockchain-revolution]*. 
 
 When you check in to a hotel, you are given a card to enter your room. When you tap the card on the door, a check is made that you are allowed to enter. When you check out, you are no longer able to enter the room. Transferability of Possession has taken place.
 
