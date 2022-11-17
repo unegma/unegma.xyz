@@ -47,7 +47,7 @@ When you own and transfer any digital object in the Web3 system, because you (or
 
 In both scenarios, Web3 ecosystems know that you are an actor is the system, and are able, through a [process you don't really need to understand][blockchain] (just as you probably don't understand the Internet's [tcp/ip][tcp-ip] system), to let you Transfer and Own, Digital Property. The opportunities this unlocks are only as big as our imaginations.
 
-And The Metaverse..? Well that is a topic for an [article on Web4][what-is-web-4].
+And The Metaverse..? Well, that is a topic for an [article on Web4][what-is-web-4].
 
 [web1]: https://www.techopedia.com/definition/27960/web-10
 [web2]: https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html
