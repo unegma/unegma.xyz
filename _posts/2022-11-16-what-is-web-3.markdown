@@ -39,7 +39,7 @@ The final component of Ownership, is 3. Identity: To keep a record of who owns w
 
 ---
 
->**This is why paying for verified identity doesn't work, anyone can say they are someone else, as long as they are willing to put down some cash.**
+>**This is why [paying for verified identity][twitter] doesn't work, anyone can say they are someone else, as long as they are willing to put down some cash.**
 
 ---
 
@@ -62,3 +62,4 @@ And The Metaverse..? Well that is a topic for a different [article on Web4][what
 [blockchain]: https://www.youtube.com/watch?v=y2O2H0QADpo
 [blockchain-revolution]: https://dontapscott.com/books/blockchain-revolution/
 [did]: https://www.gov.uk/government/news/new-legislation-set-to-make-digital-identities-more-trustworthy-and-secure
+[twitter]: https://www.forbes.com/sites/danielwebber/2022/11/15/how-viable-are-elon-musks-payments-plans-for-twitter/?sh=71040e425a08
