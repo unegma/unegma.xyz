@@ -39,9 +39,9 @@ The final component of Ownership, is 3. Identity: To keep a record of who owns w
 
 ## Digital Objects
 
-When you own and transfer any digital object in the Web3 system, because you (or the custodial entity you are trusting) has a set of private digital keys, you have a digital identity. This identity may be tied to you as an individial through a process such as KYC, or you are anonymous.
+When you own and transfer any digital object in the Web3 system, because you (or the [entity you are trusting][custodial-entity]) have a set of digital keys, you have a Digital Identity. This identity may be tied to you as an individual through some form of [recognised approvals process][kyc], or you are anonymous.
 
-In both scenarios, the wider Web3 system knows that you are an actor is the system, and is able (through a process you don't really need to understand, just as you probably don't understand tcp/ip), is able to let you transfer and own Digital Property.
+In both scenarios, the wider Web3 system knows that you are an actor is the system, and is able (through a [process you don't really need to understand][blockchain], just as you probably don't understand the Internet's [tcp/ip][tcp-ip] system), is able to let you transfer and own Digital Property.
 
 The opportunities this unlocks are only as big as our imaginations.
 
@@ -49,3 +49,7 @@ And The Metaverse..? Well that is a topic for a different [article on Web4][what
 
 
 [what-is-web-4]: https://www.igi-global.com/dictionary/overview-differentiation-evolutionary-steps-web/35103
+[kyc]: https://www.swift.com/your-needs/financial-crime-cyber-security/know-your-customer-kyc/meaning-kyc
+[custodial-entity]: https://www.investopedia.com/terms/c/custodian.asp
+[tcp-ip]: https://en.wikipedia.org/wiki/Internet_protocol_suite
+[blockchain]: https://www.youtube.com/watch?v=y2O2H0QADpo
