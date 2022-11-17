@@ -45,7 +45,7 @@ The final component of Ownership, is 3. Identity: for a record to exist of who o
 
 When you own and transfer any digital object in the Web3 system, because you (or the [entity you are trusting][custodial-entity]) have a set of digital keys, you have a Digital Identity. This identity may be tied to you as an individual through some form of [recognised approvals process][kyc], or you are anonymous.
 
-In both scenarios, Web3 ecosystems know that you are an actor is the system, and are able, through a [process you don't really need to understand][blockchain] (just as you probably don't understand the Internet's [tcp/ip][tcp-ip] system), to let you Transfer and Own, Digital Property. The opportunities this unlocks are as big as our imaginations.
+In both scenarios, Web3 ecosystems know that you are an actor is the system, and are able, through a [process you don't really need to understand][blockchain] (just as you probably don't understand the Internet's [tcp/ip][tcp-ip] system), to let you Transfer and Own, Digital Property. The opportunities this unlocks are only as big as our imaginations.
 
 And The Metaverse..? Well that is a topic for a different [article on Web4][what-is-web-4].
 
